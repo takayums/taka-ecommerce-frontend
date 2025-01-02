@@ -33,7 +33,7 @@ export default function InputCustom({
       control={control}
       name={name}
       render={({ field }) => (
-        <FormItem className="">
+        <FormItem className="space-y-[15px]">
           <FormLabel className="text-lg text-gray-700 font-medium">
             {label}
           </FormLabel>
